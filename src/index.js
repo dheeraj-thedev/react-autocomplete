@@ -1,12 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './Components/PostPage';
 import reportWebVitals from './reportWebVitals';
+import '../src/App.css'
+
+
+// api will get ou the color
+
+const header=["red", "green","blue","yello","black"]
+
+function randomIndex(min,max){
+  min = Math.ceil(min);
+  max = Math.floor(max)
+  return Math.random()*(max-min+1)+min;
+};
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {console.log("Random Number"+header[Math.floor(Math.random()*header.length)])}
+    <App headerColor={header[Math.floor(Math.random()*header.length)]} />
   </React.StrictMode>,
   document.getElementById('root')
 );

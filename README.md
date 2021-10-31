@@ -1,3 +1,49 @@
+
+
+
+
+Component Life Cycle 
+-->> Class Based Compoenet 
+        Component did mount 
+        setState
+        lifecycle Methoods
+-->> Functional Component 
+        How to mantain the state 
+        hooks ->
+               useEffect
+               useState
+---> AXIOS (1) [Advanced]
+     is an HTTP client library that allows you to make request to a given endpoint 
+
+---> fetch (2) [basic] "Native" - is used to fetch data from API REST {}
+     api.github.com/users/someuser
+
+
+ React-Router-Dom 
+
+     
+
+
+JSON 
+/post
+
+     get //
+     post //
+     put 
+     delete
+
+
+    we will manually send request via post man
+
+useState == State in functional 
+useEffect == Side Effect useEfeect 
+
+AXIOS ->
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

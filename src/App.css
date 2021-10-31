@@ -2,6 +2,16 @@
   text-align: center;
 }
 
+.input{
+  border: 1px solid #999;
+  padding: 0.5rem;
+  width: 400px;
+}
+.no-suggestions{
+  color: red;
+  padding:0.5rem;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
